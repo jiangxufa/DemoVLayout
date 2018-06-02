@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jiangxufa.demovlayout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RootActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".linear.LinearLayoutHelperActivity"/>
+        <activity android:name=".grid.GridLayoutHelperActivity"/>
+        <activity android:name=".staggered.StaggeredLayoutHelperActivity"/>
+        <activity android:name=".fix.FixLayoutHeplerActivity"/>
+        <activity android:name=".scroll_fix.ScrollFixLayoutHelperActivity"/>
+        <activity android:name=".float_.FloatLayoutHelperActivity"/>
+        <activity android:name=".column.ColumnLayoutHelperActivity"/>
+        <activity android:name=".single.SingleLayoutHelperActivity"/>
+        <activity android:name=".oneplus.OnePlusNLayoutHelperActivity"/>
+        <activity android:name=".stick.StickyLayoutHelperActivity"/>
+        <activity android:name=".TestActivity"/>
+        <activity android:name=".settingpage.SettingPageActivity"/>
+        <activity android:name=".TaoBaoActivity"/>
+    </application>
+
+</manifest>
